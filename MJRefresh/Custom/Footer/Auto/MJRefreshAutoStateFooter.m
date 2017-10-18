@@ -77,6 +77,7 @@
     
     // 状态标签
     self.stateLabel.frame = self.bounds;
+    self.stateLabel.textColor = [UIColor grayColor];
 }
 
 - (void)setState:(MJRefreshState)state
